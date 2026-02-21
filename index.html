@@ -27,20 +27,23 @@
             border-color: #ff0000;
         }
 
-        /* FIX DU TEXTE TROP GRAND / ESPACES INVISIBLES */
         .dream-text {
             font-weight: 800;
             text-transform: uppercase;
             font-style: italic;
             line-height: 1.2;
-            letter-spacing: 0.05em; /* Ajoute de l'espace entre les lettres */
-            word-spacing: 0.2em;   /* Force l'espace entre les mots */
+            letter-spacing: 0.05em;
+            word-spacing: 0.2em;
         }
 
         .title-stroke {
             font-weight: 800;
             color: white;
-            text-shadow: 2px 2px 0px #ff0000, -2px -2px 0px #ff0000, 2px -2px 0px #ff0000, -2px 2px 0px #ff0000;
+            text-shadow:
+                2px 2px 0px #ff0000,
+               -2px -2px 0px #ff0000,
+                2px -2px 0px #ff0000,
+               -2px 2px 0px #ff0000;
         }
     </style>
 </head>
@@ -50,7 +53,9 @@
         <header class="flex flex-col items-center text-center mb-12">
             <img src="https://i.postimg.cc/LXgZYZ7J/Gemini-Generated-Image-tnr2xftnr2xftnr2.png" 
                  class="w-32 h-32 rounded-[40px] object-cover border-4 border-white shadow-2xl mb-6">
-            <h1 class="text-6xl md:text-8xl title-stroke uppercase italic tracking-tighter">Belyxzor</h1>
+            <h1 class="text-6xl md:text-8xl title-stroke uppercase italic tracking-tighter">
+                Belyxzor
+            </h1>
         </header>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -64,23 +69,48 @@
             </div>
 
             <div class="grid gap-4">
-                <a href="https://www.youtube.com/@Belyxzor" target="_blank" class="bento-card flex items-center justify-between px-8 py-6 group">
-                    <span class="font-black italic uppercase group-hover:text-red-600 transition">YouTube</span>
+                <a href="https://www.youtube.com/@Belyxzor" target="_blank"
+                   class="bento-card flex items-center justify-between px-8 py-6 group">
+                    <span class="font-black italic uppercase group-hover:text-red-600 transition">
+                        YouTube
+                    </span>
                     <span class="text-2xl">🎬</span>
                 </a>
-                <a href="https://discord.gg/Nn47meGW6c" target="_blank" class="bento-card flex items-center justify-between px-8 py-6 group">
-                    <span class="font-black italic uppercase group-hover:text-red-600 transition">Discord</span>
+
+                <a href="https://discord.gg/Nn47meGW6c" target="_blank"
+                   class="bento-card flex items-center justify-between px-8 py-6 group">
+                    <span class="font-black italic uppercase group-hover:text-red-600 transition">
+                        Discord
+                    </span>
                     <span class="text-2xl">💬</span>
+                </a>
+
+                <a href="https://www.twitch.tv/belyxzor" target="_blank"
+                   class="bento-card flex items-center justify-between px-8 py-6 group">
+                    <span class="font-black italic uppercase group-hover:text-red-600 transition">
+                        Twitch
+                    </span>
+                    <span class="text-2xl">🎮</span>
                 </a>
             </div>
 
             <div class="md:col-span-2 bento-card p-8">
-                <h3 class="font-black uppercase italic text-red-600 mb-4 tracking-widest">Dernier Son</h3>
-                <iframe width="100%" height="60" src="https://vocaroo.com/embed/1jUias7izWzS?autoplay=0" frameborder="0" class="rounded-2xl"></iframe>
+                <h3 class="font-black uppercase italic text-red-600 mb-4 tracking-widest">
+                    Dernier Son
+                </h3>
+                <iframe
+                    width="100%"
+                    height="60"
+                    src="https://vocaroo.com/embed/1jUias7izWzS?autoplay=0"
+                    frameborder="0"
+                    class="rounded-2xl">
+                </iframe>
             </div>
 
             <div class="md:col-span-2 bento-card p-10 bg-red-600 text-white shadow-[0_20px_40px_rgba(255,0,0,0.4)]">
-                <p class="text-[10px] uppercase tracking-[0.5em] mb-4 font-bold text-center opacity-80">Objectif Ultime</p>
+                <p class="text-[10px] uppercase tracking-[0.5em] mb-4 font-bold text-center opacity-80">
+                    Objectif Ultime
+                </p>
                 <h2 class="dream-text text-3xl md:text-5xl text-center">
                     dire a tom lwsm bonjour
                 </h2>
